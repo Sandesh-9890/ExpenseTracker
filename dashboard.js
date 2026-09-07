@@ -821,7 +821,7 @@ async function sendMessage() {
         // SEND QUESTION + TRANSACTIONS TO SERVER
         // ==========================================
 
-        const response = await fetch("https://your-backend-name.onrender.com/chat", {
+        const response = await fetch("https://expense-tracker-api-qbvy.onrender.com", {
 
             method: "POST",
 
